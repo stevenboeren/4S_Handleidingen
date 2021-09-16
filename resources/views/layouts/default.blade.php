@@ -36,14 +36,18 @@
 
         </div>
 
-        <div class="row">
-            @include('includes.footer')
-        </div>
+           
 
     </div>
-
-
+    <div class="row">
+        <!-- Footer verplaats onderaan de pagina door alles onder de div te zetten -->
+        @include('includes.footer')
+    </div>
+    
 </div>
+
+
+
 
 <!-- Bootstrap core JavaScript
 ================================================== -->
