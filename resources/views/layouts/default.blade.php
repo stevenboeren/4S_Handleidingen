@@ -39,11 +39,12 @@
            
 
     </div>
-    <div class="row">
+</div>
+<div class="footer">
+    <div class="container">
         <!-- Footer verplaats onderaan de pagina door alles onder de div te zetten -->
         @include('includes.footer')
     </div>
-    
 </div>
 
 
