@@ -27,11 +27,11 @@
                 @yield('content')
             @endif
 
+            <!-- Ticket Extra: Een breadcrumb aanpast zodat onder aan elke pagina mijn naam ziet! -->
             <ul class="breadcrumb">
                 <li>
-					<a href="/" title="{{ __('misc.home_alt') }}" alt="{{ __('misc.home_alt') }}">{{ __('misc.home') }}</a>
+					<p>Aangepast door Steven Boeren, Voor een school-opdracht voor praktijk bij Curio Breda.</p>
 				</li>
-                @yield('breadcrumb')
             </ul>
 
         </div>
