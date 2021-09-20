@@ -10,7 +10,7 @@
 
 <!-- Ticket EXTRA: Naam ophalen via variable en dat tonen op homepagina -->
 <div class="credits">
-    <p>Aangepast door {{ $fullname }} , Door middel van de praktijk-schoolopdracht.</p>
+    <p>Aangepast door {{ $name }} , Door middel van de praktijk-schoolopdracht.</p>
 </div>
 
 
