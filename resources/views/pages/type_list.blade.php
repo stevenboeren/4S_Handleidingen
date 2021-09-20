@@ -11,13 +11,21 @@
 <p>{{ __('introduction_texts.type_list', ['brand'=>$brand->name]) }}</p>
 
     <div class="container">
-		<ul>
+
+		
 		@foreach($types as $type)
-			<li>
-				<a href="/{{ $brand->id }}/{{ $brand->name_url_encoded }}/{{ $type->id }}/{{ $type->name_url_encoded }}/">{{ $type->name }}</a>
-			</li>
+
+			<!-- Ticket 2a: verander de list types naar grid -->
+			<div class="types">
+				<div class="type-card">
+					<h2>{{ $type->name }}</h2>
+					<a href="/{{ $brand->id }}/{{ $brand->name_url_encoded }}/{{ $type->id }}/{{ $type->name_url_encoded }}/">{{ $type->name }}</a>
+				</div>
+				
+			</div>	
+
 		@endforeach
-		</ul>
+
 	</div>
 
 @stop
