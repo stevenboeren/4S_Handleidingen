@@ -43,9 +43,9 @@
                                 }
                                 $header_first_letter = $current_first_letter
                                 ?>
-                                    <li>
+                                    <li class="list-button-li">
                                         <!-- Links krijgen een nieuwe styling (Ticket 1c) -->
-                                        <a class="list-button" href="/{{ $brand->id }}/{{ $brand->name_url_encoded }}/">{{ $brand->name }}</a>
+                                        <a href="/{{ $brand->id }}/{{ $brand->name_url_encoded }}/">{{ $brand->name }}</a>
                                     </li>
                                 
                             @endforeach
