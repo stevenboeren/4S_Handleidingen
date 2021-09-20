@@ -7,6 +7,13 @@
 @endsection
 
 @section('content')
+
+<!-- Ticket EXTRA: Naam ophalen via variable en dat tonen op homepagina -->
+<div class="credits">
+    <p>Aangepast door {{ $fullname }} , Door middel van de praktijk-schoolopdracht.</p>
+</div>
+
+
 <!-- Nieuwe div voor styling op lijsten in homepagina (Ticket 1c) -->
 <div class="list">
     <h1>
