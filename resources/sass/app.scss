@@ -30,3 +30,74 @@
     color: #ccc;
     content: "/\00a0";
 }
+
+/* Footer styling (Ticket 1a) */
+.footer{
+    background-color: #343a40;
+    padding: 20px;
+    color: white;
+  }
+// 1b. Container naar het midden
+.row{
+    justify-content: center;
+}
+
+  /* Homepagina styling lijsten (Ticket 1c) */
+  .list {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #c9daea;
+    border-radius: 0.3rem;
+  }
+  /* Styling voor list items */
+  .list-button-li{
+    background-color: #1d68a7;
+    padding: 5%;
+    border-radius: 10px;
+  }
+  .list-button-li a{
+    color: white;
+  }
+  
+  /* Ticket EXTRA: Styling */
+  .credits{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.75rem 1rem;
+    margin-bottom: 1rem;
+    list-style: none;
+    background-color: #e9ecef;
+    border-radius: 0.25rem;
+    color: #1d68a7;
+  }
+  
+  /* Ticket 2a: Grid voor types */
+  .types{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-bottom: 20px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  .type-card{
+    background: #b7d9f5;
+    border-radius: 10px;
+    padding: 20%;
+    color: #0B351D;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 5px 5px 6px -2px #a3a3a3be;
+    transition: transform ease-in-out .5s;
+    position: relative;
+  }
+  .type-card:hover{
+    transition: transfrom ease-in-out .5s;
+    transform: scale(1.04);
+    cursor: pointer;
+  }
+  .type-name{
+    font-size: 1.575rem;
+    color: #000;
+  }
