@@ -113,3 +113,21 @@
 .text-center{
     text-align: center;
 }
+// Ticket 2c: Styling voor link (knop)
+.button-manual{
+    background-color: #1d68a7;
+    border-radius: 10px; 
+    text-align: center;
+}
+.button-manual a h1{
+   color: #b7d9f5; 
+}
+.button-manual a:hover{
+    text-decoration: none;
+}
+.button-manual h1:hover{
+    color: #1d68a7;
+}
+.button-manual:hover{
+    background-color: #b4ddff;
+}
