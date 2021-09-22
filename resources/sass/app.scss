@@ -102,3 +102,14 @@
     color: #000;
 }
 
+// Ticket 2b Footer uitbeiding styling
+.footer-lists{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+//Helper om meedere classes gelijk tekst te centeren
+.text-center{
+    text-align: center;
+}

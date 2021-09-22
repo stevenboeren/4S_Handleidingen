@@ -1,7 +1,37 @@
 
 <footer>
+  
+	<!-- Ticket 2b: Footer uitbreiden -->
+  <div class="footer-lists">
+    <div class="section">
+      <h2>Over Ons</h2>
+      <ul>
+        <li>Wie zijn wij</li>
+        <li>Werkzaamheden</li>
+        <li>Manuals</li>
+      </ul>
+    </div>
+    <div class="section">
+      <h2>Contactgegevens</h2>
+      <ul>
+        <li>TN: 088 209 7521</li>
+        <li>Terheijdenseweg 350</li>
+        <li>4826 AA Breda</li>
+      </ul>
+    </div>
+    <div class="section">
+      <h2>Social Links</h2>
+      <ul>
+        <li>Instagram</li>
+        <li>Linkedin</li>
+        <li>Twitter</li>
+      </ul>
+    </div>
+    
+  </div>
+
   <!-- Jaar aangepast naar 2021 -->
-	© Copyright 2021 Avarix
+  <p class="text-center ">© Copyright 2021 Avarix</p>
 </footer>
 
 
